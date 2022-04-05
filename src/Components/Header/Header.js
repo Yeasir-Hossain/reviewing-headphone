@@ -7,8 +7,8 @@ const Header = () => {
       <div className="  flex gap-5 text-xl font-bold justify-center">
         <CustomLink to="/">HOME</CustomLink>
         <CustomLink to="/reviews">REVIEWS</CustomLink>
-        <CustomLink to="/dashboard">DASHBOARD</CustomLink>
-        <CustomLink to="/blogs">BLOGS</CustomLink>
+        <CustomLink to="/chart">CHART</CustomLink>
+        <CustomLink to="/faq">FAQ</CustomLink>
         <CustomLink to="/about">ABOUT</CustomLink>
       </div>
     </div>
