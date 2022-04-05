@@ -5,7 +5,7 @@ const Faq = () => {
       <div className="m-7">
         <div>
           <h1 className="font-bold text-4xl flex justify-center mb-5">
-            What is purpose of context API?
+            What is context API?
           </h1>
           <p className="text-justify text-xl">
             Context provides a way to pass data through the component tree
@@ -24,7 +24,7 @@ const Faq = () => {
         </div>
         <div>
           <h1 className="font-bold text-4xl flex justify-center mb-5 mt-5">
-            What is symmetric tags?
+            What is semantic tags?
           </h1>
           <p className="text-justify text-xl">
             One of the most important features of HTML5 is its
@@ -43,20 +43,13 @@ const Faq = () => {
         </div>
         <div>
           <h1 className="font-bold text-4xl flex justify-center mb-5 mt-5">
-            Inline vs Inline-block vs block
+            Inline block vs Inline element
           </h1>
           <p className="text-justify text-xl">
-            Inline: The element doesn't start
-            on a new line and only occupy just the width it requires. You can't
-            set the width or height. Compared to display: inline, the major
-            difference is that display: inline-block allows to set a width and
-            height on the element.
+            Inline-block: They consume the entire width available irrespective of their sufficiency. They always start in a new line and have top and bottom margins. It does not contain any other elements next to it.
             </p>
             <p className="text-justify text-xl">
-            Inline-block: It's formatted just like the inline element, where it 
-            doesn't start on a new line. A block element is an HTML element
-            that begins a new line on a web page and extends the full width of
-            the available horizontal space of its parent element
+            Inline-element: Inline elements occupy only enough width that is sufficient to it and allows other elements next to it which are inline. Inline elements don't start from a new line and don't have top and bottom margins as block elements have.
             </p>
         </div>
       </div>
