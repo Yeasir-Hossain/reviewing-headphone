@@ -4,10 +4,10 @@ const Faq = () => {
     return (
       <div className="m-7">
         <div>
-          <h1 className="font-bold text-lg flex justify-center mb-5">
+          <h1 className="font-bold text-4xl flex justify-center mb-5">
             What is purpose of context API?
           </h1>
-          <p className="text-justify">
+          <p className="text-justify text-xl">
             Context provides a way to pass data through the component tree
             without having to pass props down manually at every level.The React
             Context API is a way for a React app to effectively produce global
@@ -23,10 +23,10 @@ const Faq = () => {
           </p>
         </div>
         <div>
-          <h1 className="font-bold text-lg flex justify-center mb-5 mt-5">
+          <h1 className="font-bold text-4xl flex justify-center mb-5 mt-5">
             What is symmetric tags?
           </h1>
-          <p>
+          <p className="text-justify text-xl">
             One of the most important features of HTML5 is its
             semantics.Semantic HTML refers to syntax that makes the HTML more
             comprehensible by better defining the different sections and layout
@@ -42,17 +42,17 @@ const Faq = () => {
           </p>
         </div>
         <div>
-          <h1 className="font-bold text-lg flex justify-center mb-5 mt-5">
+          <h1 className="font-bold text-4xl flex justify-center mb-5 mt-5">
             Inline vs Inline-block vs block
           </h1>
-          <p>
+          <p className="text-justify text-xl">
             Inline: The element doesn't start
             on a new line and only occupy just the width it requires. You can't
             set the width or height. Compared to display: inline, the major
             difference is that display: inline-block allows to set a width and
             height on the element.
             </p>
-            <p>
+            <p className="text-justify text-xl">
             Inline-block: It's formatted just like the inline element, where it 
             doesn't start on a new line. A block element is an HTML element
             that begins a new line on a web page and extends the full width of
