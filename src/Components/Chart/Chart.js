@@ -41,7 +41,7 @@ const Chart = () => {
     },
   ];
   return (
-    <div className="md:columns-2 lg:columns-2 mt-11">
+    <div className="sm:columns-1 md:columns-2 mt-11">
       <div>
         <h2 className="text-xl text-indigo-500  flex justify-center font-bold mb-11">
           MONTH WISE SELL
